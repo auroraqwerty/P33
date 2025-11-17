@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Historia"
+  },
+  {
+    "id": 2,
+    "name": "Quimica"
+  },
+  {
+    "id": 3,
+    "name": "Fisica"
+  },
+  {
+    "id": 4,
+    "name": "Ingles"
+  },
+  {
+    "id": 5,
+    "name": "Matematicas"
+  },
+  {
+    "id": 6,
+    "name": "Artes"
+  },
+  {
+    "id": 7,
+    "name": "Atletismo"
+  },
+  {
+    "id": 8,
+    "name": "Etica"
+  },
+  {
+    "id": 9,
+    "name": "Test Class"
+  },
+  {
+    "id": 10,
+    "name": "Updated Class"
+  }
+]
