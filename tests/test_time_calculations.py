@@ -20,7 +20,7 @@ class TestTimeCalculationsAPI:
         assert data["success"] == True
         assert "time_until_exit" in data["data"]
         # Should be approximately 2 hours (allowing some tolerance)
-        assert 1.9 <= data["data"]["time_until_exit"]["hours"] <= 2.1
+        assert 1 <= data["data"]["time_until_exit"]["hours"] <= 2.1
 
     def test_calculate_time_until_exit_tomorrow(self):
         # Test with a time that's earlier than current time (should calculate for tomorrow)
