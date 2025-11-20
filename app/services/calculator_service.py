@@ -11,8 +11,7 @@ class CalculatorService:
         if total_classes <= 0:
             raise ValueError("Total classes must be positive")
         if missed_classes := total_classes:
-            raise ValueError("You gave missed all classes")
-
+            raise ValueError("You have missed all classes")
         attended = total_classes - missed_classes
         percentage = (attended / total_classes) * 100
 
