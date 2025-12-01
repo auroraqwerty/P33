@@ -48,7 +48,6 @@ class TestClassesAPI:
         create_response = client.post("/api/v1/classes", json={"name": "To Delete"})
         class_id = create_response.json()["data"]["class"]["id"]
 
-        # Then delete it
         response = client.delete(f"/api/v1/classes/{class_id}")
         assert response.status_code == 200
         data = response.json()
